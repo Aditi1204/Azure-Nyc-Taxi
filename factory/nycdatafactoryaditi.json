@@ -1,0 +1,15 @@
+{
+	"name": "nycdatafactoryaditi",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1c6a03d6-a548-46ea-b977-40e80cbb1aaf",
+		"tenantId": "cff47f6c-989c-4137-a8f5-1efef51da173"
+	}
+}
