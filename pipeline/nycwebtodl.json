@@ -21,7 +21,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"expression": {
-									"value": "@greater(item(),9 )",
+									"value": "@greater(int(item()),9)",
 									"type": "Expression"
 								},
 								"ifFalseActivities": [
