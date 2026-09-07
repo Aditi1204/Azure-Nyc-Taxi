@@ -133,7 +133,13 @@
 										"inputs": [
 											{
 												"referenceName": "raw_source_greater9",
-												"type": "DatasetReference"
+												"type": "DatasetReference",
+												"parameters": {
+													"p_monthgreater": {
+														"value": "@item()",
+														"type": "Expression"
+													}
+												}
 											}
 										],
 										"outputs": [
